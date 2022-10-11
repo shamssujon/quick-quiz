@@ -19,22 +19,22 @@ const Navbar = () => {
                 <div className="flex items-center justify-between gap-8">
                     <Link className="flex items-center gap-2" to="/">
                         <img src={logo} alt="" className="h-16 w-16" />
-                        <h4 className="text-2xl text-white font-bold">Quick <span className="text-cyan-300">Quiz</span></h4>
+                        <h4 className="text-2xl text-white font-bold">Quick <span className="text-blue-300">Quiz</span></h4>
                     </Link>
                     <button
                         type="button"
                         onClick={() => toggleBtnState(!btnState)}
                         className="relative h-6 w-8 md:hidden">
                         <span
-                            className={`absolute left-1/2 top-0 block h-0.5 w-full origin-top-right -translate-x-1/2 transform rounded bg-cyan-300/60 transition will-change-transform ${
+                            className={`absolute left-1/2 top-0 block h-0.5 w-full origin-top-right -translate-x-1/2 transform rounded bg-blue-300/60 transition will-change-transform ${
                                 btnState ? "-rotate-45" : "rotate-0"
                             }`}></span>
                         <span
-                            className={`absolute left-1/2 top-1/2 block h-0.5 w-full origin-left -translate-y-1/2 -translate-x-1/2 transform rounded bg-cyan-300/60 transition  will-change-transform ${
+                            className={`absolute left-1/2 top-1/2 block h-0.5 w-full origin-left -translate-y-1/2 -translate-x-1/2 transform rounded bg-blue-300/60 transition  will-change-transform ${
                                 btnState ? "scale-x-0" : "scale-x-100"
                             }`}></span>
                         <span
-                            className={`absolute left-1/2 bottom-0 block h-0.5 w-full origin-bottom-right -translate-x-1/2 transform rounded bg-cyan-300/60 transition will-change-transform ${
+                            className={`absolute left-1/2 bottom-0 block h-0.5 w-full origin-bottom-right -translate-x-1/2 transform rounded bg-blue-300/60 transition will-change-transform ${
                                 btnState ? "rotate-45" : "rotate-0"
                             }`}></span>
                     </button>

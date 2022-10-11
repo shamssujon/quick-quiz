@@ -4,7 +4,7 @@ import {
     Route,
     RouterProvider,
 } from "react-router-dom";
-import MainLayout from "./components/layouts/MainLayout";
+import MainLayout from "./layouts/MainLayout";
 import BlogPage from "./pages/BlogPage";
 import ErrorPage from "./pages/ErrorPage";
 import HomePage from "./pages/HomePage";
@@ -25,7 +25,7 @@ function App() {
         )
     );
     return (
-        <div className="App">
+        <div className="App text-slate-900">
             <RouterProvider router={router}></RouterProvider>
         </div>
     );
