@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { ArrowLongRightIcon, ArrowSmallRightIcon } from "@heroicons/react/24/solid";
+import { ArrowSmallRightIcon } from "@heroicons/react/24/solid";
 
 const QuizTopic = ({ quizTopic }) => {
     const { id, name, logo, total } = quizTopic;

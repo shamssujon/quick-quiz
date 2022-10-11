@@ -29,7 +29,7 @@ function App() {
         )
     );
     return (
-        <div className="App text-slate-900">
+        <div className="App text-slate-900 flex flex-col justify-between">
             <RouterProvider router={router}></RouterProvider>
         </div>
     );
