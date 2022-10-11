@@ -7,9 +7,9 @@ const Hero = () => {
         <section className="bg-slate-100 py-20">
             <div className="container grid items-center gap-10 lg:grid-cols-2 lg:gap-20">
                 <div className="">
-                    <h2 className="mb-6 text-5xl font-bold">
+                    <h1 className="mb-6 text-5xl font-bold">
                         It's time to <span className="text-blue-600">refresh</span> your brain!
-                    </h2>
+                    </h1>
                     <p className="text-lg font-light text-slate-700 lg:text-xl">
                         <strong>Quick Quiz</strong> is online quiz platform where you can take quiz
                         tests on various topics. It will help you to pass on marketplace skill test

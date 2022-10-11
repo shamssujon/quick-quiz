@@ -6,8 +6,8 @@
 6. Layout - done
 7. Pages - done
 8. NavLink with active style - done
-9. Hero
-10. Quiz topics - load quiz topics from api
+9. Hero - done
+10. Quiz topics - load quiz topics from api - done
 11. Display topics with name, image, button and question quantity
 12. On quiz topic button/card click, go to topic page
 13. Load quiz topic details on quic topic page
