@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
 const QuizeItem = ({ questionItem, index }) => {
-    const { id, correctAnswer, question, options } = questionItem;
+    const { correctAnswer, question, options } = questionItem;
 
     // Remove HTML tags from the question
     const questionString = question.replace(/<\/?([a-z][a-z0-9]*)\b[^>]*>/gi, "");
