@@ -8,8 +8,8 @@
 8. NavLink with active style - done
 9. Hero - done
 10. Quiz topics - load quiz topics from api - done
-11. Display topics with name, image, button and question quantity
-12. On quiz topic button/card click, go to topic page
+11. Display topics with name, image, button and question quantity - done
+12. On quiz topic button/card click, go to topic page - done
 13. Load quiz topic details on quic topic page
 14. Show correct/incorrect when click on a option
 15. clicking eye icon will reveal correct answer

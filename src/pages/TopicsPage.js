@@ -1,10 +1,9 @@
 import React from 'react';
+import QuizTopics from '../components/QuizTopics';
 
 const TopicsPage = () => {
     return (
-        <div>
-            Topics page
-        </div>
+        <QuizTopics></QuizTopics>
     );
 };
 
