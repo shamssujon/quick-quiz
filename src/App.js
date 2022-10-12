@@ -33,7 +33,7 @@ function App() {
                     path="/topics/topic/:topicId"
                     element={<TopicPage></TopicPage>}
                     loader={async ({ params }) =>
-                        fetch(`https://openapi.programming-hero.com/api/quiz/${params.id}`)
+                        fetch(`https://openapi.programming-hero.com/api/quiz/${params.topicId}`)
                     }></Route>
             </Route>
         )
