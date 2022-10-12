@@ -26,7 +26,10 @@ function App() {
                     path="/topics"
                     loader={quizTopicsLoader}
                     element={<TopicsPage></TopicsPage>}></Route>
-                <Route path="/statistics" element={<StatisticsPage></StatisticsPage>}></Route>
+                <Route
+                    path="/statistics"
+                    loader={quizTopicsLoader}
+                    element={<StatisticsPage></StatisticsPage>}></Route>
                 <Route path="/blog" element={<BlogPage></BlogPage>}></Route>
                 <Route path="*" element={<ErrorPage></ErrorPage>}></Route>
                 <Route

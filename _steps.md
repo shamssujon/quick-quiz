@@ -10,10 +10,10 @@
 10. Quiz topics - load quiz topics from api - done
 11. Display topics with name, image, button and question quantity - done
 12. On quiz topic button/card click, go to topic page - done
-13. Load quiz topic details on quic topic page
-14. Show correct/incorrect when click on a option
-15. clicking eye icon will reveal correct answer
-16. Statistics with chart by total value
+13. Load quiz topic details on quic topic page - done
+14. Show correct/incorrect when click on a option - done
+15. clicking eye icon will reveal correct answer - done
+16. Statistics with chart by total value - done
 17. Blog
     - What is the purpose of React Router?
     - How does context API works?
