@@ -7,7 +7,7 @@ const MenuItem = ({ route }) => {
         <NavLink
             className={({ isActive }) =>
                 (isActive
-                    ? "text-blue-300 hover:text-blue-400"
+                    ? "text-blue-400 hover:text-blue-300"
                     : "text-white/70 hover:text-white") +
                 " block p-2 font-semibold uppercase transition"
             }

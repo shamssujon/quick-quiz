@@ -18,7 +18,7 @@
     - What is the purpose of React Router?
     - How does context API works?
     - What is useRef? Explain.
-18. 404 page
+18. 404 page - done
 19. Responsive
 20. Fix Netlify reload 404
 21. 10 commits

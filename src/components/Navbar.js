@@ -6,10 +6,10 @@ import MenuItem from "./MenuItem";
 const Navbar = () => {
     const routes = [
         { id: 1, name: "Home", path: "/home" },
-        { id: 2, name: "Topics", path: "/topics" },
+        { id: 2, name: "Quizes", path: "/Quizes" },
         { id: 3, name: "Statistics", path: "/statistics" },
         { id: 4, name: "Blog", path: "/blog" },
-        { id: 5, name: "404", path: "/not-found" },
+        { id: 5, name: "404", path: "/not-found-lol" },
     ];
 
     const [btnState, toggleBtnState] = useState(false);
@@ -19,7 +19,7 @@ const Navbar = () => {
                 <div className="flex items-center justify-between gap-8">
                     <Link className="flex items-center gap-2" to="/">
                         <img src={logo} alt="" className="h-16 w-16" />
-                        <h4 className="text-2xl text-white font-bold">Quick <span className="text-blue-300">Quiz</span></h4>
+                        <h4 className="text-2xl text-white font-bold">Quick <span className="text-blue-400">Quiz</span></h4>
                     </Link>
                     <button
                         type="button"

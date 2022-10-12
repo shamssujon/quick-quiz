@@ -15,7 +15,7 @@ const QuizTopic = ({ quizTopic }) => {
             </div>
             <div className="group">
                 <Link
-                    to={`/topics/topic/${id}`}
+                    to={`/quizes/quiz/${id}`}
                     className="flex items-center justify-center gap-2 bg-blue-600 py-4 px-8 text-center font-bold uppercase text-white transition hover:bg-blue-700">
                     <span>Start Practice</span>
                     <ArrowSmallRightIcon className="h-6 w-6 transition group-hover:translate-x-1"></ArrowSmallRightIcon>

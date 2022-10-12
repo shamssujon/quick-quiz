@@ -8,7 +8,7 @@ const QuizTopics = () => {
     return (
         <section className="py-20">
             <div className="container">
-                <h2 className="mb-10 text-center text-4xl font-bold">Popular Topics</h2>
+                <h2 className="mb-10 text-center text-4xl font-bold">Popular Quiz Topics</h2>
                 <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
                     {quizTopics.map((quizTopic) => (
                         <QuizTopic key={quizTopic.id} quizTopic={quizTopic}></QuizTopic>

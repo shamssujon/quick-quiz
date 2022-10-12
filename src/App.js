@@ -23,7 +23,7 @@ function App() {
                     loader={quizTopicsLoader}
                     element={<HomePage></HomePage>}></Route>
                 <Route
-                    path="/topics"
+                    path="/quizes"
                     loader={quizTopicsLoader}
                     element={<TopicsPage></TopicsPage>}></Route>
                 <Route
@@ -33,10 +33,10 @@ function App() {
                 <Route path="/blog" element={<BlogPage></BlogPage>}></Route>
                 <Route path="*" element={<ErrorPage></ErrorPage>}></Route>
                 <Route
-                    path="/topics/topic/:topicId"
+                    path="/quizes/quiz/:quizId"
                     element={<TopicPage></TopicPage>}
                     loader={async ({ params }) =>
-                        fetch(`https://openapi.programming-hero.com/api/quiz/${params.topicId}`)
+                        fetch(`https://openapi.programming-hero.com/api/quiz/${params.quizId}`)
                     }></Route>
             </Route>
         )
