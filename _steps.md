@@ -25,4 +25,4 @@
 22. Readme - done
 23. Deploy to Netlify - done
 24. Fix Netlify 404 on reload - done
-25. Submit
+25. Submit - done

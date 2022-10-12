@@ -1,5 +1,5 @@
 import { EyeIcon } from "@heroicons/react/24/solid";
-import React from "react";
+import React, { useState } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
 const QuizeItem = ({ questionItem, index }) => {
@@ -17,6 +17,7 @@ const QuizeItem = ({ questionItem, index }) => {
         });
     };
 
+    // Success result toast
     const optionResultSuccessToast = () => {
         toast.success("Correct answer!", {
             duration: 3000,
@@ -25,6 +26,7 @@ const QuizeItem = ({ questionItem, index }) => {
         });
     };
 
+    // Error result toast
     const optionResultErrorToast = () => {
         toast.error("Incorrect answer!", {
             duration: 3000,
@@ -33,9 +35,13 @@ const QuizeItem = ({ questionItem, index }) => {
         });
     };
 
+    const [selected, setSelected] = useState(null);
+    const [isActive, setIsActive] = useState(false);
+
     // Show result clicking on a option
     const handleOptionClick = (option) => {
-        // console.log(option, correctAnswer);
+        setSelected(option);
+
         if (option === correctAnswer) {
             optionResultSuccessToast();
         } else {
@@ -64,9 +70,21 @@ const QuizeItem = ({ questionItem, index }) => {
                         key={index}
                         onClick={() => handleOptionClick(option)}
                         type="button"
-                        className="group flex cursor-pointer items-center gap-2 rounded-md border-2 bg-slate-100 p-4 text-left text-lg transition hover:border-blue-400 hover:bg-slate-200 active:bg-slate-300">
-                        <span className="inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2 border-blue-400">
-                            <span className="h-2 w-2 rounded-full bg-blue-600 opacity-0 transition group-hover:opacity-100"></span>
+                        className={`group flex cursor-pointer items-center gap-2 rounded-md border-2 p-4 text-left text-lg transition hover:border-blue-400 hover:bg-slate-200 active:bg-slate-300 ${
+                            selected === option
+                                ? "border-blue-300 bg-blue-600 text-white hover:border-blue-300 hover:bg-blue-600 active:bg-blue-600"
+                                : "bg-slate-100"
+                        }`}>
+                        <span
+                            className={`inline-flex h-5 w-5 shrink-0 items-center justify-center rounded-full border-2  ${
+                                selected === option ? "border-white" : "border-blue-400"
+                            }`}>
+                            <span
+                                className={`h-2 w-2 rounded-full   transition group-hover:opacity-100 ${
+                                    selected === option
+                                        ? "bg-white opacity-100"
+                                        : "bg-blue-600 opacity-0"
+                                }`}></span>
                         </span>
                         {option}
                     </button>
