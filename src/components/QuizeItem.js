@@ -35,12 +35,11 @@ const QuizeItem = ({ questionItem, index }) => {
         });
     };
 
-    const [selected, setSelected] = useState(null);
-
+    
     // Show result clicking on a option
+    const [selected, setSelected] = useState(null);
     const handleOptionClick = (option) => {
         setSelected(option);
-        console.log(selected);
 
         if (option === correctAnswer) {
             optionResultSuccessToast();
