@@ -22,7 +22,7 @@
 19. Responsive - done
 20. 10 commits - done
 21. Display numbers of correct and incorrect answers.
-22. Readme
-23. Deploy to Netlify
-24. Fix Netlify reload 404
+22. Readme - done
+23. Deploy to Netlify - done
+24. Fix Netlify 404 on reload - done
 25. Submit

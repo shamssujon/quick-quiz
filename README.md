@@ -1,14 +1,20 @@
-# Getting Started with Create React App
+# Quick Quiz
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Quick Quiz is online quiz platform where you can take quiz tests on various topics. It will help you to pass on popular course and marketplace's skill test exams. Currently we have a few topics. More interesting topics will come later as we grow.
+
+## Live Preview
+https://quick-quiz-beta.netlify.app/
 
 ## Available Scripts
 
-In the project directory, you can run:
+For developement, first install all dependencies: 
+### `npm install`
+
+After installing the dependencies, go to the project directory and run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+It will run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
