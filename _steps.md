@@ -26,3 +26,6 @@
 23. Deploy to Netlify - done
 24. Fix Netlify 404 on reload - done
 25. Submit - done
+26. Set active option style - done
+27. Show eye button once an option is choosen - done
+28. Disable all option after choosing one. 

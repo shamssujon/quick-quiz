@@ -40,6 +40,7 @@ const QuizeItem = ({ questionItem, index }) => {
     // Show result clicking on a option
     const handleOptionClick = (option) => {
         setSelected(option);
+        console.log(selected);
 
         if (option === correctAnswer) {
             optionResultSuccessToast();
@@ -58,7 +59,9 @@ const QuizeItem = ({ questionItem, index }) => {
                 <button
                     type="button"
                     onClick={handleEyeBtn}
-                    className="p-2 opacity-80 transition hover:text-blue-600 hover:opacity-100">
+                    className={`p-2 opacity-80 transition hover:text-blue-600 hover:opacity-100 ${
+                        selected === null ? "invisible" : ""
+                    }`}>
                     <EyeIcon className="h-6 w-6"></EyeIcon>
                 </button>
                 <Toaster />
