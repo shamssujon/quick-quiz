@@ -18,7 +18,7 @@ const StatisticsPage = () => {
         <section className="py-20">
             <div className="container">
                 <h2 className="mb-10 text-center text-4xl font-bold">Total quiz questions</h2>
-                <ResponsiveContainer width="100%" height={500}>
+                <ResponsiveContainer width="100%" height={400}>
                     <BarChart data={loaderData}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="name" />

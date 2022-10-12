@@ -39,15 +39,16 @@ const QuizeItem = ({ questionItem, index }) => {
         if (option === correctAnswer) {
             optionResultSuccessToast();
         } else {
-            optionResultErrorToast()
+            optionResultErrorToast();
         }
     };
     return (
-        <div className="rounded-md border bg-white p-8 shadow transition hover:shadow-lg">
-            <div className="mb-8 flex justify-between">
-                <h4 className="text-2xl">
+        <div className="rounded-md border bg-white p-6 shadow transition hover:shadow-lg md:p-8">
+            <div className="mb-8 flex items-start justify-between">
+                <h4 className="text-xl md:text-2xl">
                     <span className="font-bold">Question: {index + 1} </span>
-                    {questionString}
+                    <br />
+                    <span>{questionString}</span>
                 </h4>
                 <button
                     type="button"
@@ -57,7 +58,7 @@ const QuizeItem = ({ questionItem, index }) => {
                 </button>
                 <Toaster />
             </div>
-            <div className="grid grid-cols-2 gap-4">
+            <div className="grid gap-4 md:grid-cols-2">
                 {options.map((option, index) => (
                     <button
                         key={index}

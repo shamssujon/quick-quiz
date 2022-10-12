@@ -18,7 +18,7 @@ const Hero = () => {
                     </p>
                     <div className="mt-8">
                         <Link
-                            to="/topics"
+                            to="/quizes"
                             className="inline-flex rounded bg-blue-600 py-4 px-8 font-bold uppercase text-white transition hover:bg-blue-700">
                             Take a quiz test
                         </Link>

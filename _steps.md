@@ -20,8 +20,9 @@
     - What is useRef? Explain.
 18. 404 page - done
 19. Responsive - done
-20. Fix Netlify reload 404
-21. 10 commits - done
-22. Display numbers of correct and incorrect answers.
+20. 10 commits - done
+21. Display numbers of correct and incorrect answers.
+22. Readme
 23. Deploy to Netlify
-24. Submit
+24. Fix Netlify reload 404
+25. Submit
