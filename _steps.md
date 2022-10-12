@@ -14,14 +14,14 @@
 14. Show correct/incorrect when click on a option - done
 15. clicking eye icon will reveal correct answer - done
 16. Statistics with chart by total value - done
-17. Blog
+17. Blog - done
     - What is the purpose of React Router?
     - How does context API works?
     - What is useRef? Explain.
 18. 404 page - done
-19. Responsive
+19. Responsive - done
 20. Fix Netlify reload 404
-21. 10 commits
+21. 10 commits - done
 22. Display numbers of correct and incorrect answers.
 23. Deploy to Netlify
 24. Submit
