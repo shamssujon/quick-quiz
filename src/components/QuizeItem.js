@@ -36,7 +36,6 @@ const QuizeItem = ({ questionItem, index }) => {
     };
 
     const [selected, setSelected] = useState(null);
-    const [isActive, setIsActive] = useState(false);
 
     // Show result clicking on a option
     const handleOptionClick = (option) => {
